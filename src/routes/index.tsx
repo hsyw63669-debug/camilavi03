@@ -114,7 +114,7 @@ const localizeProfileDom=(country:string)=>{
 const planAmounts: Record<string, number> = {
   "1 mês": 19.90,
   "3 meses": 49.90,
-  "Vitalício": 124.90,
+  "Vitalício": 97.90,
 };
 const orderBumps = {
  whatsapp: { label:"WhatsApp exclusivo", amount:59.9 },
