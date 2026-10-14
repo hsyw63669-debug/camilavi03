@@ -350,10 +350,10 @@ function ProfilePage() {
      <div className="relative px-4 pb-5">
       <div className="-mt-[43px] flex items-end justify-between">
        <div className="h-[88px] w-[88px] shrink-0 overflow-hidden rounded-full border-[5px] border-white bg-white"><img src={profileImage} alt="Tia Camila" className="h-full w-full object-cover" style={{objectPosition:"center 35%"}}/></div>
-       <div className="mb-1 flex items-center gap-3 text-[14px] text-[#303137]"><span className="flex items-center gap-1.5"><ImageIcon size={20} strokeWidth={1.6}/>89</span><span className="flex items-center gap-1.5"><PlaySquare size={20} strokeWidth={1.6}/>53</span><span className="flex items-center gap-1.5"><Lock size={19} strokeWidth={1.6}/>49</span><span className="flex items-center gap-1.5"><Heart size={20} strokeWidth={1.6}/>2.9K</span></div>
+       <div className="mb-1 flex items-center gap-3 text-[14px] text-[#303137]"><span className="flex items-center gap-1.5"><ImageIcon size={20} strokeWidth={1.6}/>76</span><span className="flex items-center gap-1.5"><PlaySquare size={20} strokeWidth={1.6}/>543</span><span className="flex items-center gap-1.5"><Lock size={19} strokeWidth={1.6}/>112</span><span className="flex items-center gap-1.5"><Heart size={20} strokeWidth={1.6}/>89.7K</span></div>
       </div>
       <div className="mt-5 flex items-center gap-1.5"><h1 className="text-[23px] font-bold tracking-[-.55px]">Tia Camila</h1><span className="flex h-[21px] w-[21px] items-center justify-center rounded-full border-2 border-[#4389d8] text-[13px] font-bold text-[#4389d8]">✓</span></div>
-      <p className="mt-0.5 text-[15px] text-[#303137]">@tiacamila</p>
+      <p className="mt-0.5 text-[15px] text-[#303137]">@tiacamila_69</p>
       <p className="mt-3 text-[15px] leading-[1.45] text-[#17191d]">{bioExpanded ? (t.bioIntro || "Oi, eu sou a Tia Camila. Bem-vindo ao meu cantinho ❤️") : (t.bioIntro || "Oi, eu sou a Tia Camila. Bem-vindo ao meu cantinho ❤️")}</p>
       <button type="button" onClick={()=>setBioExpanded(v=>!v)} className="mt-2 text-[14px] font-semibold text-[#df8749]">{bioExpanded?"Ler menos":"Ler mais"}</button>
       <div className="mt-6 flex items-center gap-3 text-[#303137]"><button type="button" aria-label="Instagram" onClick={()=>setChatOpen(true)} className="flex h-12 w-12 items-center justify-center rounded-full bg-[#f8f3f0]"><Globe size={23} strokeWidth={1.7}/></button><button type="button" aria-label="TikTok" onClick={()=>setChatOpen(true)} className="flex h-12 w-12 items-center justify-center rounded-full bg-[#f8f3f0]"><Send size={23} strokeWidth={1.7}/></button></div>
@@ -369,7 +369,7 @@ function ProfilePage() {
       </div>
       <div className="relative">
        <span className="absolute -top-[15px] left-[20px] z-10 rounded-full bg-[#effbef] px-[12px] py-[4px] text-[12px] font-medium leading-[16px] text-[#3da95e]">Economize 75%</span>
-       <button type="button" onClick={()=>goToCheckout("Vitalício")} className="flex h-[46px] w-full items-center justify-center rounded-full bg-gradient-to-r from-[#ff9b45] to-[#f8a39b] px-4 text-center text-[15px] font-medium leading-5 text-black active:scale-[.99]">Assinar agora R$ 97,90</button>
+       <button type="button" onClick={()=>goToCheckout("Vitalício")} className="flex h-[46px] w-full items-center justify-center rounded-full bg-gradient-to-r from-[#ff9b45] to-[#f8a39b] px-4 text-center text-[15px] font-medium leading-5 text-black active:scale-[.99]">Assinar agora R$ 19,90</button>
        <div className="mt-[10px] pr-[12px] text-right text-[11px] font-normal leading-[14px] text-[#182a46]">Preço original <span className="line-through">R$ 60,00</span></div>
       </div>
     </section>}
