@@ -125,7 +125,7 @@ const planAmounts: Record<string, number> = {
 };
 const orderBumps = {
  whatsapp: { label:"WhatsApp exclusivo", amount:12.9 },
- videoCall: { label:"Chamada de vídeo", amount:89.9 },
+ videoCall: { label:"Chamada de vídeo", amount:79.9 },
  customVideo: { label:"Videos personalizados", amount:39.9 },
 } as const;
 type OrderBumpKey = keyof typeof orderBumps;
@@ -414,9 +414,9 @@ function ProfilePage() {
                 playsInline
                 loop
                 autoPlay
-                className="absolute inset-0 h-full w-full object-cover"
+                className="absolute inset-0 h-full w-full object-cover blur-[6px] scale-110"
               />
-              <div className="absolute inset-0 bg-black/35" />
+              <div className="absolute inset-0 bg-black/40" />
               <div className="absolute inset-0 flex flex-col items-center justify-center gap-1 text-white">
                 <Lock size={22} strokeWidth={1.8} className="drop-shadow" />
                 <span className="text-[12px] font-bold drop-shadow">Conteúdo VIP</span>
