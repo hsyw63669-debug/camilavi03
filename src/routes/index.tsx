@@ -465,7 +465,7 @@ function ProfilePage() {
   {selectedPack&&<PixCheckout amountOverride={selectedPack.amount} description={`Pack ${selectedPack.title} - ${selectedPack.category} - Tia Camila`} packName={selectedPack.title} onClose={()=>setSelectedPack(null)} accessType="pack"/>}
   {chatOpen&&<PrivacyChat onClose={()=>setChatOpen(false)} onConversationEnd={()=>{setChatOpen(false);setWhatsappAccess(true)}}/>}
   {resumePayment&&<PixCheckout resume={resumePayment} onClose={()=>setResumePayment(null)} accessType="subscription" orderBumpsEnabled={false}/>}
-  {paymentPlan&&<PixCheckout plan={paymentPlan} onClose={()=>setPaymentPlan(null)} accessType="subscription" orderBumpsEnabled autoGenerateOnOpen/>}
+  {paymentPlan&&<PixCheckout plan={paymentPlan} onClose={()=>setPaymentPlan(null)} accessType="subscription" orderBumpsEnabled/>}
   {giftCheckout&&<GiftCheckout onClose={()=>setGiftCheckout(false)}/>}
   {telegramNotice&&country!=="BR"&&<TelegramNotice t={t} onClose={()=>setTelegramNotice(false)} onContinue={()=>{trackEvent("foreign_telegram_clicked",{country:country||"unknown",event_step:"foreign_telegram_continue"});setTelegramNotice(false);window.location.href=foreignTelegramBotLink}}/>}
  </div>;
