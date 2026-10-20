@@ -125,7 +125,7 @@ const planAmounts: Record<string, number> = {
 };
 const orderBumps = {
  whatsapp: { label:"WhatsApp exclusivo", amount:12.9 },
- videoCall: { label:"Chamada de vídeo", amount:49.9 },
+ videoCall: { label:"Chamada de vídeo", amount:79.9 },
  customVideo: { label:"Videos personalizados", amount:39.9 },
 } as const;
 type OrderBumpKey = keyof typeof orderBumps;
@@ -357,7 +357,7 @@ function ProfilePage() {
      <div className="relative px-4 pb-5">
       <div className="-mt-[43px] flex items-end justify-between">
        <div className="h-[88px] w-[88px] shrink-0 overflow-hidden rounded-full border-[5px] border-white bg-white"><img src={profileImage} alt="Tia Camila" className="h-full w-full object-cover" style={{objectPosition:"center 35%"}}/></div>
-       <div className="mb-1 flex items-center gap-3 text-[14px] text-[#303137]"><span className="flex items-center gap-1.5"><ImageIcon size={20} strokeWidth={1.6}/>203</span><span className="flex items-center gap-1.5"><PlaySquare size={20} strokeWidth={1.6}/>507</span><span className="flex items-center gap-1.5"><Lock size={19} strokeWidth={1.6}/>112</span><span className="flex items-center gap-1.5"><Heart size={20} strokeWidth={1.6}/>276K</span></div>
+       <div className="mb-1 flex items-center gap-3 text-[14px] text-[#303137]"><span className="flex items-center gap-1.5"><ImageIcon size={20} strokeWidth={1.6}/>76</span><span className="flex items-center gap-1.5"><PlaySquare size={20} strokeWidth={1.6}/>543</span><span className="flex items-center gap-1.5"><Lock size={19} strokeWidth={1.6}/>112</span><span className="flex items-center gap-1.5"><Heart size={20} strokeWidth={1.6}/>89.7K</span></div>
       </div>
       <div className="mt-5 flex items-center gap-1.5"><h1 className="text-[23px] font-bold tracking-[-.55px]">Tia Camila</h1><span className="flex h-[21px] w-[21px] items-center justify-center rounded-full border-2 border-[#4389d8] text-[13px] font-bold text-[#4389d8]">✓</span></div>
       <p className="mt-0.5 text-[15px] text-[#303137]">@tiacamila_69</p>
